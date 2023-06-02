@@ -1,3 +1,3 @@
 # Portfolio
 
-A simple portfolio of my growth journey, projects and achivments!
+A simple portfolio of my growth journey, creative projects and achivments!
