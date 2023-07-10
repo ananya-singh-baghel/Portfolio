@@ -1,0 +1,259 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f3e5d3;
+  background-color: #151412;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 10px;
+  padding: 0 20px;
+
+}
+
+/* Header */
+header {
+  //background-color: #f3e5d3;
+  //color: #151412;
+color: #f3e5d3;
+  padding: 18px;
+}
+
+header a {
+  color: #f3e5d3;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #151412;
+  text-decoration: underline;
+}
+
+#branding {
+  float: centre;
+}
+
+#branding h1 {
+  font-size: 2rem;
+  margin: 10;
+
+}
+
+#branding .highlight {
+  color: #151412;
+}
+
+nav {
+  float: right;
+  margin-top: -32px;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #f3e5d3;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f3e5d3;
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  height: 700px;
+  background-image: url('/Users/ananyasinghbaghel/Downloads/group6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 480px 700px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-bottom: 600px;
+Padding-top: 50px;
+line-height: 0.8;
+}
+
+
+/* About */
+#about {
+  padding: 50px 0;
+  padding-left: 200px;
+  Padding-right: 200px;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+#projects {
+  padding: 50px 0;
+  padding-left: 200px;
+  Padding-right: 200px;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#projects p {
+  justify-content: center;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Contact */
+#contact {
+  padding: 50px 0;
+  padding-left: 200px;
+  Padding-right: 200px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #151412;
+}
+.project-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+
+/* Custom scrollbar styles */
+.project-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.project-container::-webkit-scrollbar-track {
+  background: #f3e5d3 ;
+}
+
+.project-container::-webkit-scrollbar-thumb {
+  background-color: #151412;
+  border-radius: 6px;
+  border: 3px solid #f3e5d3;
+}
+
+
+.projects-row {
+  display: inline-block;
+  width: 40%;
+}
+
+.project {
+  display: inline-block;
+  width: 262px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.project p {
+  text-align: justify;
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+body {
+  /* other styles */
+  overflow-y: scroll;
+}
+
+/* scrollbar styles */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #151412;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f3e5d3 ;
+  border-radius: 20px;
+}
